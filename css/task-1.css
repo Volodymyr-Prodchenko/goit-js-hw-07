@@ -28,6 +28,4 @@ ul#categories {
   flex-direction: column;
   text-decoration: none;
   align-items: center;
-
-  /* justify-content: space-around; */
 }
