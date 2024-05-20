@@ -1,17 +1,22 @@
 .gallery {
+  max-width: 1128px;
   display: flex;
   list-style: none;
   padding: 0;
   flex-direction: row;
   flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
 }
-.gallery-item {
-  flex-basis: calc(33.333% - 10px);
-  box-sizing: border-box;
-  padding: 0 24px 38px 0;
+
+li {
+  width: 360px;
+  height: 300px;
 }
-.gallery-item img {
+img {
+  height: 100%;
   width: 100%;
-  height: auto;
-  display: block;
+  object-fit: cover;
 }
