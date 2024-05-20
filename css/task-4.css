@@ -1,16 +1,43 @@
-form {
-  border-radius: 8px;
+.login-form {
   padding: 24px;
-  width: 408px;
-  background-color: #fff;
-}
-button {
-  width: 86px;
-  height: 40px;
+  color: #2e2f42;
 }
 
-input {
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.login-form input {
   width: 360px;
   height: 40px;
-  margin: 8px 0;
+  margin-top: 8px;
+  border-radius: 4px;
+  border: solid 1px #808080;
+}
+
+.login-form input:hover {
+  border: solid 1px #2e2f42;
+}
+
+.login-form button {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: #fff;
+  background-color: #4e75ff; /*#6C8CFF */
+  border-radius: 8px;
+  margin-top: 16px;
+}
+.login-form button:hover {
+  background-color: #6c8cff;
+}
+.login-form {
+  padding: 24px;
+}
+
+.login-form {
+  padding: 24px;
 }

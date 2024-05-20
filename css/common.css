@@ -12,47 +12,104 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+.montserrat-uniquifier {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
 
-ul {
-  list-style: none;
-  padding-left: 0;
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
 }
 
 button {
-  border: none;
-  border-radius: 8px;
-  padding: 8px 16px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: #4e75ff;
-  color: #fff;
+  cursor: pointer;
 }
 
-button:hover,
-button:focus {
-  background-color: #6c8cff;
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
 }
 
-.inp {
-  border: 1px solid #808080;
-  border-radius: 8px;
-  text-align: center;
-  width: 150px;
-  height: 40px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
-  background-color: transparent;
+address {
+  font-style: normal;
 }
 
-.destroy-btn {
-  background-color: #ff4e4e;
+input,
+a,
+a :visited {
+  text-decoration: none;
+  color: inherit;
 }
-.destroy-btn:hover,
-.destroy-btn:focus {
-  background-color: #ff7070;
+
+button {
+  color: inherit;
+  background-color: inherit;
+}
+
+a:focus {
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+svg {
+  fill: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
 }
